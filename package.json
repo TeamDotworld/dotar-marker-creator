@@ -1,12 +1,15 @@
 {
-  "name": "nodegenerator",
+  "name": "@teamdotworld/dotar-marker-creator",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "demo": "cd demo && node demoServer.js"
   },
-  "author": "",
+  "publishConfig": {
+    "@teamdotworld:registry": "https://npm.pkg.github.com"
+  },
+  "author": "Dotworld Technologies",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
